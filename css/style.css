@@ -32,6 +32,7 @@ body {
   height: 100%;
   font-family: "Josefin Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -1179,7 +1180,8 @@ padding:10px
   Portfolio
 -----------------------*/
 .portfolio {
-  background: #100028;
+  background: rgb(17, 25, 32);
+  
 }
 
 .portfolio__filter {
@@ -1203,7 +1205,7 @@ padding:10px
 }
 
 .portfolio__item {
-  margin-bottom: 35px;
+  margin-bottom: 16px;
 }
 .portfolio__item:hover .portfolio__item__text h4:after {
   opacity: 1;
@@ -1221,6 +1223,22 @@ padding:10px
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 28px;
+}
+
+.portfolio__item__picture {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 8px;
+  /* width:280px; */
+  border-radius: 8px;
 }
 .portfolio__item__video .play-btn {
   display: inline-block;
@@ -1656,7 +1674,7 @@ padding:10px
   Contact Widget
 -----------------------*/
 .contact-widget {
-  background: #100028;
+  background: rgb(17, 25, 32);
   padding-bottom: 70px;
 }
 
@@ -1697,7 +1715,7 @@ padding:10px
   Contact
 -----------------------*/
 .contact {
-  background: #100028;
+  background: rgb(17, 25, 32);
   padding-top: 0;
   overflow: hidden;
 }
@@ -1763,6 +1781,9 @@ padding:10px
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1170px;
+  }
+  .mix{
+    padding-left: 0;
   }
 }
 /* Medium Device = 1200px */

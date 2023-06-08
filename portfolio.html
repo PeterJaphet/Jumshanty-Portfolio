@@ -1,339 +1,431 @@
 <!DOCTYPE html>
 <html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Videograph Template" />
+    <meta name="keywords" content="Videograph, unica, creative, html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jumshanty Production</title>
 
-<!-- Mirrored from preview.colorlib.com/theme/videograph/portfolio.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 04 Jun 2023 21:08:11 GMT -->
-<head>
-<meta charset="UTF-8">
-<meta name="description" content="Videograph Template">
-<meta name="keywords" content="Videograph, unica, creative, html">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Videograph | Template</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
 
-<link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <script nonce="7b1125ef-de8b-4cfa-8673-6359706bcd7f">
+      (function (w, d) {
+        !(function (Y, Z, _, ba) {
+          Y[_] = Y[_] || {};
+          Y[_].executed = [];
+          Y.zaraz = { deferred: [], listeners: [] };
+          Y.zaraz.q = [];
+          Y.zaraz._f = function (bb) {
+            return function () {
+              var bc = Array.prototype.slice.call(arguments);
+              Y.zaraz.q.push({ m: bb, a: bc });
+            };
+          };
+          for (const bd of ["track", "set", "debug"])
+            Y.zaraz[bd] = Y.zaraz._f(bd);
+          Y.zaraz.init = () => {
+            var be = Z.getElementsByTagName(ba)[0],
+              bf = Z.createElement(ba),
+              bg = Z.getElementsByTagName("title")[0];
+            bg && (Y[_].t = Z.getElementsByTagName("title")[0].text);
+            Y[_].x = Math.random();
+            Y[_].w = Y.screen.width;
+            Y[_].h = Y.screen.height;
+            Y[_].j = Y.innerHeight;
+            Y[_].e = Y.innerWidth;
+            Y[_].l = Y.location.href;
+            Y[_].r = Z.referrer;
+            Y[_].k = Y.screen.colorDepth;
+            Y[_].n = Z.characterSet;
+            Y[_].o = new Date().getTimezoneOffset();
+            if (Y.dataLayer)
+              for (const bk of Object.entries(
+                Object.entries(dataLayer).reduce(
+                  (bl, bm) => ({ ...bl[1], ...bm[1] }),
+                  {}
+                )
+              ))
+                zaraz.set(bk[0], bk[1], { scope: "page" });
+            Y[_].q = [];
+            for (; Y.zaraz.q.length; ) {
+              const bn = Y.zaraz.q.shift();
+              Y[_].q.push(bn);
+            }
+            bf.defer = !0;
+            for (const bo of [localStorage, sessionStorage])
+              Object.keys(bo || {})
+                .filter((bq) => bq.startsWith("_zaraz_"))
+                .forEach((bp) => {
+                  try {
+                    Y[_]["z_" + bp.slice(7)] = JSON.parse(bo.getItem(bp));
+                  } catch {
+                    Y[_]["z_" + bp.slice(7)] = bo.getItem(bp);
+                  }
+                });
+            bf.referrerPolicy = "origin";
+            bf.src =
+              "../../cdn-cgi/zaraz/sd0d9.js?z=" +
+              btoa(encodeURIComponent(JSON.stringify(Y[_])));
+            be.parentNode.insertBefore(bf, be);
+          };
+          ["complete", "interactive"].includes(Z.readyState)
+            ? zaraz.init()
+            : Y.addEventListener("DOMContentLoaded", zaraz.init);
+        })(w, d, "zarazData", "script");
+      })(window, document);
+    </script>
+  </head>
+  <body>
+    <div id="preloder">
+      <div class="loader"></div>
+    </div>
 
-<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-<link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-<link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-<link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-<link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-<link rel="stylesheet" href="css/style.css" type="text/css">
-<script nonce="7b1125ef-de8b-4cfa-8673-6359706bcd7f">(function(w,d){!function(Y,Z,_,ba){Y[_]=Y[_]||{};Y[_].executed=[];Y.zaraz={deferred:[],listeners:[]};Y.zaraz.q=[];Y.zaraz._f=function(bb){return function(){var bc=Array.prototype.slice.call(arguments);Y.zaraz.q.push({m:bb,a:bc})}};for(const bd of["track","set","debug"])Y.zaraz[bd]=Y.zaraz._f(bd);Y.zaraz.init=()=>{var be=Z.getElementsByTagName(ba)[0],bf=Z.createElement(ba),bg=Z.getElementsByTagName("title")[0];bg&&(Y[_].t=Z.getElementsByTagName("title")[0].text);Y[_].x=Math.random();Y[_].w=Y.screen.width;Y[_].h=Y.screen.height;Y[_].j=Y.innerHeight;Y[_].e=Y.innerWidth;Y[_].l=Y.location.href;Y[_].r=Z.referrer;Y[_].k=Y.screen.colorDepth;Y[_].n=Z.characterSet;Y[_].o=(new Date).getTimezoneOffset();if(Y.dataLayer)for(const bk of Object.entries(Object.entries(dataLayer).reduce(((bl,bm)=>({...bl[1],...bm[1]})),{})))zaraz.set(bk[0],bk[1],{scope:"page"});Y[_].q=[];for(;Y.zaraz.q.length;){const bn=Y.zaraz.q.shift();Y[_].q.push(bn)}bf.defer=!0;for(const bo of[localStorage,sessionStorage])Object.keys(bo||{}).filter((bq=>bq.startsWith("_zaraz_"))).forEach((bp=>{try{Y[_]["z_"+bp.slice(7)]=JSON.parse(bo.getItem(bp))}catch{Y[_]["z_"+bp.slice(7)]=bo.getItem(bp)}}));bf.referrerPolicy="origin";bf.src="../../cdn-cgi/zaraz/sd0d9.js?z="+btoa(encodeURIComponent(JSON.stringify(Y[_])));be.parentNode.insertBefore(bf,be)};["complete","interactive"].includes(Z.readyState)?zaraz.init():Y.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,"zarazData","script");})(window,document);</script></head>
-<body>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2">
+            <div class="header__logo">
+              <a href="index.html"
+                ><img src="img/logo.png" alt="" class="logo_img"
+              /></a>
+            </div>
+          </div>
+          <div class="col-lg-10">
+            <div class="header__nav__option">
+              <nav class="header__nav__menu mobile-menu">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+              <div class="header__nav__social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-youtube-play"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+      </div>
+    </header>
 
-<div id="preloder">
-<div class="loader"></div>
-</div>
+    <div
+      class="breadcrumb-option spad set-bg"
+      data-setbg="img/hero/team-bg.jpg"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="breadcrumb__text">
+              <h2>Portfolio</h2>
+              <div class="breadcrumb__links">
+                <a href="#">Home</a>
+                <span>Portfolio</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<header class="header">
-<div class="container">
-<div class="row">
-<div class="col-lg-2">
-<div class="header__logo">
-<a href="index-2.html"><img src="img/logo.png" alt=""></a>
-</div>
-</div>
-<div class="col-lg-10">
-<div class="header__nav__option">
-<nav class="header__nav__menu mobile-menu">
-<ul>
-<li><a href="index-2.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li class="active"><a href="portfolio.html">Portfolio</a></li>
-<li><a href="services.html">Services</a></li>
-<li><a href="#">Pages</a>
-<ul class="dropdown">
-<li><a href="about.html">About</a></li>
-<li><a href="portfolio.html">Portfolio</a></li>
-<li><a href="blog.html">Blog</a></li>
-<li><a href="blog-details.html">Blog Details</a></li>
-</ul>
-</li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
-</nav>
-<div class="header__nav__social">
-<a href="#"><i class="fa fa-facebook"></i></a>
-<a href="#"><i class="fa fa-twitter"></i></a>
-<a href="#"><i class="fa fa-dribbble"></i></a>
-<a href="#"><i class="fa fa-instagram"></i></a>
-<a href="#"><i class="fa fa-youtube-play"></i></a>
-</div>
-</div>
-</div>
-</div>
-<div id="mobile-menu-wrap"></div>
-</div>
-</header>
+    <section class="portfolio spad">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="portfolio__filter">
+              <!-- <li class="active" data-filter="*">All</li> -->
+              <li class="active" data-filter=".photography">Photography</li>
+              <li data-filter=".videography">Videography</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row portfolio__gallery">
+          <div class="col-lg-3 col-md-6 col-sm-6 mix photography">
+            <div class="portfolio__item">
+              <div
+                class="portfolio__item__picture set-bg"
+                data-setbg="img/portfolio/1.jpg"
+              ></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mix photography">
+            <div class="portfolio__item">
+              <div
+                class="portfolio__item__picture set-bg"
+                data-setbg="img/portfolio/2.jpg"
+              ></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mix photography">
+            <div class="portfolio__item">
+              <div
+                class="portfolio__item__picture set-bg"
+                data-setbg="img/portfolio/3.jpg"
+              ></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mix photography">
+            <div class="portfolio__item">
+              <div
+                class="portfolio__item__picture set-bg"
+                data-setbg="img/portfolio/4.jpg"
+              ></div>
+            </div>
+          </div>
 
+          <div class="col-lg-3 col-md-6 col-sm-6 mix photography">
+            <div class="portfolio__item">
+              <div
+                class="portfolio__item__picture set-bg"
+                data-setbg="img/portfolio/5.jpg"
+              ></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mix photography">
+            <div class="portfolio__item">
+              <div
+                class="portfolio__item__picture set-bg"
+                data-setbg="img/portfolio/6.jpg"
+              ></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mix photography">
+            <div class="portfolio__item">
+              <div
+                class="portfolio__item__picture set-bg"
+                data-setbg="img/portfolio/7.jpg"
+              ></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mix photography">
+            <div class="portfolio__item">
+              <div
+                class="portfolio__item__picture set-bg"
+                data-setbg="img/portfolio/8.jpg"
+              ></div>
+            </div>
+          </div>
 
-<div class="breadcrumb-option spad set-bg" data-setbg="img/breadcrumb-bg.jpg">
-<div class="container">
-<div class="row">
-<div class="col-lg-12 text-center">
-<div class="breadcrumb__text">
-<h2>About us</h2>
-<div class="breadcrumb__links">
-<a href="#">Home</a>
-<span>About</span>
-</div>
-</div>
- </div>
-</div>
-</div>
-</div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mix photography">
+            <div class="portfolio__item">
+              <div
+                class="portfolio__item__picture set-bg"
+                data-setbg="img/portfolio/9.jpg"
+              ></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mix photography">
+            <div class="portfolio__item">
+              <div
+                class="portfolio__item__picture set-bg"
+                data-setbg="img/portfolio/10.jpg"
+              ></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mix photography">
+            <div class="portfolio__item">
+              <div
+                class="portfolio__item__picture set-bg"
+                data-setbg="img/portfolio/11.jpg"
+              ></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mix photography">
+            <div class="portfolio__item">
+              <div
+                class="portfolio__item__picture set-bg"
+                data-setbg="img/portfolio/12.jpg"
+              ></div>
+            </div>
+          </div>
 
+          <div class="col-lg-3 col-md-6 col-sm-6 mix photography">
+            <div class="portfolio__item">
+              <div
+                class="portfolio__item__picture set-bg"
+                data-setbg="img/portfolio/13.jpg"
+              ></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mix photography">
+            <div class="portfolio__item">
+              <div
+                class="portfolio__item__picture set-bg"
+                data-setbg="img/portfolio/14.jpg"
+              ></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mix photography">
+            <div class="portfolio__item">
+              <div
+                class="portfolio__item__picture set-bg"
+                data-setbg="img/portfolio/15.jpg"
+              ></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mix photography">
+            <div class="portfolio__item">
+              <div
+                class="portfolio__item__picture set-bg"
+                data-setbg="img/portfolio/16.jpg"
+              ></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mix photography">
+            <div class="portfolio__item">
+              <div
+                class="portfolio__item__picture set-bg"
+                data-setbg="img/portfolio/17.jpg"
+              ></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mix photography">
+            <div class="portfolio__item">
+              <div
+                class="portfolio__item__picture set-bg"
+                data-setbg="img/portfolio/18.jpg"
+              ></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mix photography">
+            <div class="portfolio__item">
+              <div
+                class="portfolio__item__picture set-bg"
+                data-setbg="img/portfolio/19.jpg"
+              ></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mix photography">
+            <div class="portfolio__item">
+              <div
+                class="portfolio__item__picture set-bg"
+                data-setbg="img/portfolio/20.jpg"
+              ></div>
+            </div>
+          </div>
 
-<section class="portfolio spad">
-<div class="container">
-<div class="row">
-<div class="col-lg-12">
-<ul class="portfolio__filter">
-<li class="active" data-filter="*">All</li>
-<li data-filter=".branding">Branding</li>
-<li data-filter=".digital-marketing">Digital marketing</li>
-<li data-filter=".web">Web</li>
-<li data-filter=".photography">Photography</li>
-<li data-filter=" .ecommerce">eCommerce</li>
-</ul>
-</div>
-</div>
-<div class="row portfolio__gallery">
-<div class="col-lg-4 col-md-6 col-sm-6 mix branding">
-<div class="portfolio__item">
-<div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-1.jpg">
-<a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-</div>
-<div class="portfolio__item__text">
-<h4>VIP Auto Tires & Service</h4>
-<ul>
-<li>eCommerce</li>
-<li>Magento</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6 col-sm-6 mix digital-marketing">
-<div class="portfolio__item">
-<div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-2.jpg">
-<a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-</div>
-<div class="portfolio__item__text">
-<h4>VIP Auto Tires & Service</h4>
-<span>Photography</span>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6 col-sm-6 mix web">
-<div class="portfolio__item">
-<div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-3.jpg">
-<a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-</div>
-<div class="portfolio__item__text">
-<h4>VIP Auto Tires & Service</h4>
-<ul>
-<li>eCommerce</li>
-<li>Magento</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6 col-sm-6 mix photography">
-<div class="portfolio__item">
-<div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-4.jpg">
-<a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-</div>
-<div class="portfolio__item__text">
- <h4>VIP Auto Tires & Service</h4>
-<ul>
-<li>eCommerce</li>
-<li>Magento</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6 col-sm-6 mix ecommerce">
-<div class="portfolio__item">
-<div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-5.jpg">
-<a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-</div>
-<div class="portfolio__item__text">
-<h4>VIP Auto Tires & Service</h4>
-<span>Photography</span>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6 col-sm-6 mix branding">
-<div class="portfolio__item">
-<div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-6.jpg">
-<a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-</div>
-<div class="portfolio__item__text">
-<h4>VIP Auto Tires & Service</h4>
-<ul>
-<li>eCommerce</li>
-<li>Magento</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6 col-sm-6 mix web">
-<div class="portfolio__item">
-<div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-7.jpg">
-<a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-</div>
-<div class="portfolio__item__text">
-<h4>VIP Auto Tires & Service</h4>
-<ul>
-<li>eCommerce</li>
-<li>Magento</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6 col-sm-6 mix photography">
-<div class="portfolio__item">
-<div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-8.jpg">
- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-</div>
-<div class="portfolio__item__text">
-<h4>VIP Auto Tires & Service</h4>
-<span>Photography</span>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6 col-sm-6 mix ecommerce">
-<div class="portfolio__item">
-<div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-9.jpg">
-<a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-</div>
-<div class="portfolio__item__text">
-<h4>VIP Auto Tires & Service</h4>
-<ul>
-<li>eCommerce</li>
-<li>Magento</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-lg-12">
-<div class="pagination__option">
-<a href="#" class="arrow__pagination left__arrow"><span class="arrow_left"></span> Prev</a>
-<a href="#" class="number__pagination">1</a>
-<a href="#" class="number__pagination">2</a>
-<a href="#" class="arrow__pagination right__arrow">Next <span class="arrow_right"></span></a>
-</div>
-</div>
-</div>
-</div>
-</section>
+          <div class="col-lg-4 col-md-6 col-sm-6 mix ecommerce">
+            <div class="portfolio__item">
+              <div
+                class="portfolio__item__video set-bg"
+                data-setbg="img/portfolio/portfolio-9.jpg"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
+                  class="play-btn video-popup"
+                  ><i class="fa fa-play"></i
+                ></a>
+              </div>
+              <div class="portfolio__item__text">
+                <h4>VIP Auto Tires & Service</h4>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row">
+          <div class="col-lg-12">
+            <div class="pagination__option">
+              <a href="#" class="arrow__pagination left__arrow"
+                ><span class="arrow_left"></span> Prev</a
+              >
+              <a href="#" class="number__pagination">1</a>
+              <a href="#" class="number__pagination">2</a>
+              <a href="#" class="arrow__pagination right__arrow"
+                >Next <span class="arrow_right"></span
+              ></a>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
 
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="footer__top__logo">
+                <a href="index.html"
+                  ><img src="img/logo.png" alt="" class="logo_img"
+                /></a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="footer__top__social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-youtube-play"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <p class="footer__copyright__text">
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                All rights reserved | PJ Studio
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-<footer class="footer">
-<div class="container">
-<div class="footer__top">
-<div class="row">
-<div class="col-lg-6 col-md-6">
-<div class="footer__top__logo">
-<a href="#"><img src="img/logo.png" alt=""></a>
-</div>
-</div>
-<div class="col-lg-6 col-md-6">
-<div class="footer__top__social">
-<a href="#"><i class="fa fa-facebook"></i></a>
-<a href="#"><i class="fa fa-twitter"></i></a>
-<a href="#"><i class="fa fa-dribbble"></i></a>
-<a href="#"><i class="fa fa-instagram"></i></a>
-<a href="#"><i class="fa fa-youtube-play"></i></a>
-</div>
-</div>
-</div>
-</div>
-<div class="footer__option">
-<div class="row">
-<div class="col-lg-4 col-md-6 col-sm-6">
-<div class="footer__option__item">
-<h5>About us</h5>
-<p>Formed in 2006 by Matt Hobbs and Cael Jones, Videoprah is an award-winning, full-service
-production company specializing.</p>
-<a href="#" class="read__more">Read more <span class="arrow_right"></span></a>
-</div>
-</div>
-<div class="col-lg-2 col-md-3 col-sm-3">
-<div class="footer__option__item">
-<h5>Who we are</h5>
-<ul>
-<li><a href="#">Team</a></li>
-<li><a href="#">Carrers</a></li>
-<li><a href="#">Contact us</a></li>
-<li><a href="#">Locations</a></li>
-</ul>
-</div>
-</div>
-<div class="col-lg-2 col-md-3 col-sm-3">
-<div class="footer__option__item">
-<h5>Our work</h5>
-<ul>
-<li><a href="#">Feature</a></li>
-<li><a href="#">Latest</a></li>
-<li><a href="#">Browse Archive</a></li>
-<li><a href="#">Video for web</a></li>
-</ul>
-</div>
-</div>
-<div class="col-lg-4 col-md-12">
-<div class="footer__option__item">
-<h5>Newsletter</h5>
- <p>Videoprah is an award-winning, full-service production company specializing.</p>
-<form action="#">
-<input type="text" placeholder="Email">
-<button type="submit"><i class="fa fa-send"></i></button>
-</form>
-</div>
-</div>
-</div>
-</div>
-<div class="footer__copyright">
-<div class="row">
-<div class="col-lg-12 text-center">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
 
-<p class="footer__copyright__text">Copyright &copy;
-<script>
-                                                                    document.write(new Date().getFullYear());
-                                                                </script>
-All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib</a>
-</p>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-</div>
-</div>
-</div>
-</div>
-</footer>
+      gtag("config", "UA-23581568-13");
+    </script>
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816"
+      integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw=="
+      data-cf-beacon='{"rayId":"7d2326157eadc226","version":"2023.4.0","b":1,"token":"cd0b4b3a733644fc843ef0b185f98241","si":100}'
+      crossorigin="anonymous"
+    ></script>
+  </body>
 
-
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/mixitup.min.js"></script>
-<script src="js/masonry.pkgd.min.js"></script>
-<script src="js/jquery.slicknav.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/main.js"></script>
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-<script>
-                                          window.dataLayer = window.dataLayer || [];
-                                          function gtag(){dataLayer.push(arguments);}
-                                          gtag('js', new Date());
-
-                                          gtag('config', 'UA-23581568-13');
-                                      </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7d2326157eadc226","version":"2023.4.0","b":1,"token":"cd0b4b3a733644fc843ef0b185f98241","si":100}' crossorigin="anonymous"></script>
-</body>
-
-<!-- Mirrored from preview.colorlib.com/theme/videograph/portfolio.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 04 Jun 2023 21:08:11 GMT -->
+  <!-- Mirrored from preview.colorlib.com/theme/videograph/portfolio.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 04 Jun 2023 21:08:11 GMT -->
 </html>
