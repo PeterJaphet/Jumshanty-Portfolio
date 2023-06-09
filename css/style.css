@@ -1,9 +1,4 @@
 /******************************************************************
-  Template Name: Dreams
-  Description: Dreams wedding template
-  Author: Colorib
-  Author URI: https://colorlib.com/
-  Version: 1.0
   Created: Colorib
 ******************************************************************/
 /*------------------------------------------------------------------
@@ -281,7 +276,7 @@ ol {
   display: inline-block;
 }
 .logo_img{
-  height: 100px;
+  height: 85px;
 }
 
 .header__nav__option {
@@ -986,6 +981,14 @@ padding:10px
   margin-right: 32px;
   position: relative;
 }
+
+.breadcrumb__links-link{
+  background: #4c4c4c;
+  padding: 4px 8px;
+  opacity: .8;
+  border-radius: 4px;
+}
+
 .breadcrumb__links a:after {
   position: absolute;
   right: -22px;
@@ -996,7 +999,7 @@ padding:10px
 }
 .breadcrumb__links span {
   font-size: 16px;
-  color: #adadad;
+  color: #d8d2d2;
   font-weight: 300;
   display: inline-block;
 }
