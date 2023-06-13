@@ -689,6 +689,10 @@ padding:10px
   margin-bottom: 90px;
 }
 
+.team__title span{
+font-size: 24px;
+}
+
 .team__item {
   height: 390px;
   position: relative;
@@ -713,7 +717,7 @@ padding:10px
   left: 0;
   bottom: -500px;
   width: 100%;
-  padding: 50px 0 30px;
+  padding: 40px 0 30px;
   z-index: 1;
   -webkit-transition: all, 0.5s;
   -o-transition: all, 0.5s;
@@ -1736,6 +1740,11 @@ padding:10px
 
 .contact__map {
   height: 450px;
+
+}
+
+.contact__map img{
+  height: 390px;
 }
 .contact__map iframe {
   width: 100%;
